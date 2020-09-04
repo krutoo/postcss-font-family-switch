@@ -1,17 +1,29 @@
-# PostCSS Font Switch
+# PostCSS Font Family Switch
 
 [PostCSS] plugin that append font-family when font-size value is larger than target value.
 
 [PostCSS]: https://github.com/postcss/postcss
 
+**Input:**
+
 ```css
 .foo {
+  font-size: 12px;
+}
+
+.bar {
   font-size: 16px;
 }
 ```
 
+**Output:**
+
 ```css
 .foo {
+  font-size: 12px;
+}
+
+.bar {
   font-size: 16px;
   font-family: YourLargeFontFamily;
 }
