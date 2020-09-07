@@ -1,6 +1,6 @@
 {
   "name": "postcss-font-family-switch",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "PostCSS plugin Switch font-family depend on font-size",
   "keywords": [
     "postcss",
