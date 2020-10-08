@@ -43,7 +43,7 @@ and set this plugin in settings.
 ```diff
 module.exports = {
   plugins: [
-+   require('postcss-font-family-switch', { largeFamily: 'LargeFont' }),
++   require('postcss-font-family-switch')({ largeFamily: 'MyLargeFont' }),
     require('autoprefixer')
   ]
 }
